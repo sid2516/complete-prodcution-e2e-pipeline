@@ -3,11 +3,7 @@
 
 Doc link :- https://docs.dman.cloud/tutorial-documentation/install-sonarqube/#update-sonarqube-properties-with-db-credentials
 
-1.  install java 
-      wget -O - https://packages.adoptium.net/artifactory/api/gpg/key/public | sudo apt-key add -
-      echo "deb https://packages.adoptium.net/artifactory/deb $(awk -F= '/^VERSION_CODENAME/{print$2}' /etc/os-release) main" | sudo tee /etc/apt/sources.list.d/adoptium.list
-    sudo apt update
-    sudo apt install temurin-17-jdk
+1.  install java ( url :- https://askubuntu.com/questions/1375383/how-to-properly-install-temurin-jdk-with-update-alternatives )
 
 2.  install jenkins from doc
 3.  install sonar from doc on other server
