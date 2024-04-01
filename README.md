@@ -22,5 +22,5 @@ Doc link :- https://docs.dman.cloud/tutorial-documentation/install-sonarqube/#up
         -   slack
         -   sonarscanner
         -   AWS all
-6.  Now configure quality gate in jnekins
+6.  Now configure quality gate in jenkins with web hook  ( name : abc ) ( url : http://sonarqube-ip-address/sonarqube-webhook/ )
 7.  
