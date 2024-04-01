@@ -13,7 +13,7 @@ Doc link :- https://docs.dman.cloud/tutorial-documentation/install-sonarqube/#up
 3.  install sonar from doc on other server
 4.  install docker on both server
 5.  install plugins in jenkins
-        -   adoptium   ( this is use for java tool setup in jenkins 
+        -   adoptium   ( this is use for java tool setup in jenkins )
         -   maven
         -   docker
         -   pipeline plugins
